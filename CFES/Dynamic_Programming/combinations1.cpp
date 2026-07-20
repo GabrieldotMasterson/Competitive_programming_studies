@@ -17,19 +17,18 @@ int main () {
     }
  
     int dp[MAX+1];
-    memset(dp, 0x3f, sizeof(dp));
-    dp[0] = 0;
+    memset(dp, 0, sizeof(dp));
+    dp[0] = 1;
  
     for (int j = 1; j < x+1; j++){
         for (auto c : coins) {
             if (j - c >= 0) {
-                dp[j] = min(dp[j], dp[j-c] + 1);
+                dp[j] = ((dp[j] + dp[j-c] ))% 1000000007;
+                //cout << dp[j] << endl;
             }
         }
  
     }
- 
-    if (dp[x] == 1061109567) cout << -1;
-    else cout << dp[x];
+    cout << dp[x];
  
 }
