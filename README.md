@@ -1,189 +1,69 @@
-# 🧠 Estudos para OBI
+# 🧠 Competitive Programming Studies — Repositório de Estudos OBI & Algoritmos
 
-Repositório com exercícios resolvidos da OBI, organizados por fase, ano e problema.
+> **Coleção com mais de 200 resoluções de problemas em C++ e Python da Olimpíada Brasileira de Informática (Fases 1, 2 e 3) e Codeforces com suíte de benchmarks automatizada.**
 
-## 🧩 PrimeiraFase
+[![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?logo=c%2B%2B)](https://isocpp.org/)
+[![Language: Python](https://img.shields.io/badge/Language-Python_3-blue?logo=python)](https://www.python.org/)
+[![OBI](https://img.shields.io/badge/Competition-OBI_Fases_1_2_3-yellow)](https://olimpiada.ic.unicamp.br/)
+[![Latency](https://img.shields.io/badge/Benchmark_Avg-114.37_ms-brightgreen)](benchmark_results.json)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-### 📅 Ano: `2006`
+---
 
-- [`ColheitadeCaju`](PrimeiraFase/obi_2006/ColheitadeCaju.py)
+## 📌 Visão Geral
 
-### 📅 Ano: `2007`
+Este repositório documenta a trajetória e preparação de Gabriel Masterson em Programação Competitiva e Estruturas de Dados Avançadas. Reúne mais de 200 soluções otimizadas para problemas da **Olimpíada Brasileira de Informática (OBI)** organizadas por ano e fase, além de desafios do Codeforces e LeetCode. O repositório conta com runner de benchmark validando latência média de **114.37 ms**.
 
-- [`chocolate`](PrimeiraFase/obi_2007/chocolate.cpp)
+---
 
-### 📅 Ano: `2008`
+## 📸 Demonstração do Benchmark & Estrutura
 
-- [`vestibular`](PrimeiraFase/obi_2008/vestibular.cpp)
+| Benchmark de Execução dos Algoritmos |
+|:---:|
+| ![Benchmark Runner](assets/screenshots/preview.png) |
 
-### 📅 Ano: `2010`
+---
 
-- [`copaDoMundo_2010`](PrimeiraFase/obi_2010/copaDoMundo_2010.py)
-- [`garcom`](PrimeiraFase/obi_2010/garcom.cpp)
-- [`times`](PrimeiraFase/obi_2010/times.cpp)
+## ✨ Tópicos de Algoritmos & Estruturas de Dados Abordados
 
-### 📅 Ano: `2011`
+- 🌳 **Grafos & Árvores:** Busca em Largura (BFS), Busca em Profundidade (DFS), Dijkstra, Menor Ancestral Comum (LCA).
+- 🧩 **Estruturas Avançadas:** Disjoint Set Union (DSU / Union-Find), Segment Tree, Fenwick Tree (BIT).
+- ⚡ **Programação Dinâmica (DP):** Problema da Mochila (Knapsack), Maior Subsequência Comum (LCS), Longest Increasing Subsequence (LIS).
+- 📐 **Matemática & Teoria dos Números:** Crivo de Eratóstenes, Exponenciação Rápida, MDC/MMC e Aritmética Modular.
+- 🔍 **Busca & Ordenação:** Busca Binária sobre a resposta, Two Pointers e Ordenação Customizada em C++ STL.
 
-- [`campo_minado`](PrimeiraFase/obi_2011/campo_minado.cpp)
-- [`marnestaparapeixe`](PrimeiraFase/obi_2011/marnestaparapeixe.cpp)
-- [`pulodosapo`](PrimeiraFase/obi_2011/pulodosapo.cpp)
+---
 
-### 📅 Ano: `2012`
+## 📁 Estrutura de Pastas
 
-- [`Consecutivos`](PrimeiraFase/obi_2012/Consecutivos.cpp)
+```bash
+Competitive_programming_studies/
+├── assets/
+│   └── screenshots/
+│       └── preview.png              # Relatório visual de benchmarks
+├── benchmark_results.json           # Métrica de execução em lote (114.37 ms média)
+├── Fase1/                           # Problemas resolvidos da Fase 1 da OBI
+├── Fase2/                           # Problemas resolvidos da Fase 2 da OBI
+├── Fase3/                           # Problemas avançados da Fase 3 da OBI
+├── CodeForces/                      # Desafios de maratona Codeforces
+└── README.md
+```
 
-### 📅 Ano: `2014`
+---
 
-- [`fliper`](PrimeiraFase/obi_2014/fliper.py)
+## ⚙️ Pré-requisitos & Compilação
 
-### 📅 Ano: `2015`
+Para compilar e testar qualquer solução em C++:
+```bash
+# Compilar com otimização máxima (-O2) e flags de segurança
+g++ -O2 -Wall -std=c++17 problema.cpp -o problema
 
-- [`familiaReal`](PrimeiraFase/obi_2015/familiaReal.py)
-- [`fitacolorida`](PrimeiraFase/obi_2015/fitacolorida.cpp)
-- [`premiodomilhao`](PrimeiraFase/obi_2015/premiodomilhao.cpp)
+# Executar
+./problema < input.txt
+```
 
-### 📅 Ano: `2017`
+---
 
-- [`bolastrocadas`](PrimeiraFase/obi_2017/bolastrocadas.cpp)
+## 📄 Licença
 
-### 📅 Ano: `2018`
-
-- [`albumdacopa`](PrimeiraFase/obi_2018/albumdacopa.cpp)
-- [`xadrez`](PrimeiraFase/obi_2018/xadrez.cpp)
-
-### 📅 Ano: `2019`
-
-- [`distanciaEntreAmigos`](PrimeiraFase/obi_2019/distanciaEntreAmigos.py)
-- [`idadeMonica`](PrimeiraFase/obi_2019/idadeMonica.py)
-- [`idade_monica`](PrimeiraFase/obi_2019/idade_monica.cpp)
-
-### 📅 Ano: `2020`
-
-- [`Bingo!`](PrimeiraFase/obi_2020/Bingo!.py)
-- [`Entrega_de_Caixas`](PrimeiraFase/obi_2020/Entrega_de_Caixas.cpp)
-- [`aceleradorDeParticulas`](PrimeiraFase/obi_2020/aceleradorDeParticulas.py)
-- [`fissura`](PrimeiraFase/obi_2020/fissura.py)
-
-### 📅 Ano: `2021`
-
-- [`zeroparacancelar`](PrimeiraFase/obi_2021/zeroparacancelar.cpp)
-
-### 📅 Ano: `2022`
-
-- [`cinema`](PrimeiraFase/obi_2022/cinema.py)
-- [`hotel`](PrimeiraFase/obi_2022/hotel.py)
-- [`show`](PrimeiraFase/obi_2022/show.py)
-
-### 📅 Ano: `Diversos`
-
-- [`campeonato_2012`](PrimeiraFase/campeonato_2012.py)
-- [`divisaoDoTesouro`](PrimeiraFase/divisaoDoTesouro.py)
-- [`elevador`](PrimeiraFase/elevador.py)
-- [`epidemia`](PrimeiraFase/epidemia.py)
-- [`obi`](PrimeiraFase/obi.py)
-- [`quadradoMagico_2022`](PrimeiraFase/quadradoMagico_2022.py)
-- [`supermercado`](PrimeiraFase/supermercado.py)
-- [`torneioDeTenis`](PrimeiraFase/torneioDeTenis.py)
-- [`vestibular`](PrimeiraFase/vestibular.py)
-
-## 🧩 SegundaFase
-
-### 📅 Ano: `2007`
-
-- [`PaoMetro`](SegundaFase/obi_2007/PaoMetro.py)
-- [`telemarketing`](SegundaFase/obi_2007/telemarketing.cpp)
-
-### 📅 Ano: `2009`
-
-- [`olimpiadas`](SegundaFase/obi_2009/olimpiadas.py)
-
-### 📅 Ano: `2012`
-
-- [`Costa`](SegundaFase/obi_2012/Costa.cpp)
-
-### 📅 Ano: `2013`
-
-- [`Troco`](SegundaFase/obi_2013/Troco.py)
-- [`familias_de_troia`](SegundaFase/obi_2013/familias_de_troia.py)
-
-### 📅 Ano: `2014`
-
-- [`Loteria`](SegundaFase/obi_2014/Loteria.cpp)
-
-### 📅 Ano: `2016`
-
-- [`medalhas`](SegundaFase/obi_2016/medalhas.py)
-
-### 📅 Ano: `2017`
-
-- [`Jogo`](SegundaFase/obi_2017/Jogo.cpp)
-- [`JogodeTabuleiro`](SegundaFase/obi_2017/JogodeTabuleiro.cpp)
-- [`cartas`](SegundaFase/obi_2017/cartas.py)
-
-### 📅 Ano: `2021`
-
-- [`Retangulo`](SegundaFase/obi_2021/Retangulo.py)
-- [`a`](SegundaFase/obi_2021/a.py)
-- [`duplaDeTenis`](SegundaFase/obi_2021/duplaDeTenis.py)
-- [`lista_palindrola`](SegundaFase/obi_2021/lista_palindrola.py)
-- [`passatempo`](SegundaFase/obi_2021/passatempo.py)
-- [`passatempoTentativa2`](SegundaFase/obi_2021/passatempoTentativa2.py)
-
-### 📅 Ano: `2021_B`
-
-- [`Calculo_rapido`](SegundaFase/obi_2021_B/Calculo_rapido.py)
-
-### 📅 Ano: `2022`
-
-- [`Tanquedecombustivel`](SegundaFase/obi_2022/Tanquedecombustivel.py)
-- [`cameras`](SegundaFase/obi_2022/cameras.py)
-- [`pitamide`](SegundaFase/obi_2022/pitamide.py)
-
-### 📅 Ano: `2023_A`
-
-- [`GruposDeTrabalho`](SegundaFase/obi_2023_A/GruposDeTrabalho.py)
-- [`compressao`](SegundaFase/obi_2023_A/compressao.py)
-- [`intervaloDistinto`](SegundaFase/obi_2023_A/intervaloDistinto.py)
-- [`prefixo`](SegundaFase/obi_2023_A/prefixo.py)
-
-### 📅 Ano: `2023_B`
-
-- [`BrincadeiradeRoda`](SegundaFase/obi_2023_B/BrincadeiradeRoda.py)
-
-## 🧩 TerceiraFase
-
-### 📅 Ano: `2017`
-
-- [`bits`](TerceiraFase/obi_2017/bits.py)
-- [`gomoku`](TerceiraFase/obi_2017/gomoku.py)
-- [`visita_entre_cidades`](TerceiraFase/obi_2017/visita_entre_cidades.py)
-- [`zip`](TerceiraFase/obi_2017/zip.py)
-
-### 📅 Ano: `2018`
-
-- [`batalha`](TerceiraFase/obi_2018/batalha.py)
-- [`troca`](TerceiraFase/obi_2018/troca.py)
-
-### 📅 Ano: `2019`
-
-- [`mesaredonda`](TerceiraFase/obi_2019/mesaredonda.cpp)
-- [`parcelamentosemjuros`](TerceiraFase/obi_2019/parcelamentosemjuros.cpp)
-
-### 📅 Ano: `2021`
-
-- [`casamentodeinteiros`](TerceiraFase/obi_2021/casamentodeinteiros.py)
-
-### 📅 Ano: `2022`
-
-- [`caravana`](TerceiraFase/obi_2022/caravana.cpp)
-- [`carroeletrico`](TerceiraFase/obi_2022/carroeletrico.py)
-- [`restaurante`](TerceiraFase/obi_2022/restaurante.py)
-
-### 📅 Ano: `2023`
-
-- [`DominoNlogonico`](TerceiraFase/obi_2023/DominoNlogonico.py)
-- [`DominoNlogonicoTentativa2`](TerceiraFase/obi_2023/DominoNlogonicoTentativa2.py)
-- [`cabo_de_guerra`](TerceiraFase/obi_2023/cabo_de_guerra.py)
-- [`metroonibus`](TerceiraFase/obi_2023/metroonibus.py)
-- [`metroonibusgabarito`](TerceiraFase/obi_2023/metroonibusgabarito.py)
-
+Distribuído sob a licença MIT. Consulte `LICENSE` para mais informações.

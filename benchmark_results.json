@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-15 10:31:25",
+  "benchmarks": [
+    {
+      "name": "OBI 2014 - Fliper (L\u00f3gica Condicional)",
+      "status": "OK",
+      "latency_ms": 175.4,
+      "output": "B"
+    },
+    {
+      "name": "OBI 2019 - Idade de Dona M\u00f4nica (Aritm\u00e9tica/Max)",
+      "status": "OK",
+      "latency_ms": 98.43,
+      "output": "20"
+    },
+    {
+      "name": "OBI 2020 - Acelerador de Part\u00edculas (M\u00f3dulo/Ciclos)",
+      "status": "OK",
+      "latency_ms": 95.19,
+      "output": "3"
+    },
+    {
+      "name": "OBI 2022 - Resto/Divis\u00e3o (Restaurante - Geometria/L\u00f3gica)",
+      "status": "OK",
+      "latency_ms": 91.76,
+      "output": "S"
+    },
+    {
+      "name": "OBI 2023 - Cabo de Guerra (Combina\u00e7\u00f5es e Otimiza\u00e7\u00e3o)",
+      "status": "OK",
+      "latency_ms": 111.09,
+      "output": "N"
+    }
+  ]
+}
